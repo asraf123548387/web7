@@ -1,0 +1,340 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+ overflow-x: hidden;
+}
+.main{
+    width: 100%;
+}
+.nav{
+    width: 100%;
+    height:70px;
+    background-color: white;
+    display: flex;
+    border-bottom: 5px ;
+}
+
+.logo{
+    width: 160px;
+    height: 85px;
+    margin-left: 25px;
+    padding-left: 40px;
+   
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 80px;
+    
+
+}
+.menu1{
+    width:200px;
+    padding-bottom: 10px;
+    
+}
+.menu1 ul{
+    display: flex;
+    width: 150px;
+    margin-left: 420px;
+    margin-bottom: 34px;
+    padding-bottom: 23px;
+    
+    
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin-left: 68px;
+
+}
+ul li{
+    list-style: none;
+    width: 450px;
+    margin-top: 28px;
+    font-size: 14px;
+    font-weight: 10;
+    
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:medium;
+    transition: 0.4s ease-in-out;
+
+}
+.link ul{
+    margin: 0;
+    width: 470px;
+    margin-left: 70px;
+    margin-top: 8px;
+   
+    
+}
+
+.img1 img{
+    width: 95%;
+    height: 540px;
+    margin-left: 30px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+    
+
+}
+.im1:hover{
+    transform: scale(1.5);
+}
+.liw{
+    width: 105px;
+}
+.liq{
+    width: 140px;
+}
+li.lia{
+    color:rgb(110, 171, 209);
+    font-weight: 350;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    
+}
+.h11{
+    margin-top: 90px;
+    padding-left: 330px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    
+}
+.h11 h1{
+    font-weight: 650px;
+    
+}
+.p1{
+    margin-top: 35px;
+    margin-left: 65px;
+    width:1100px;
+    letter-spacing: 1px;
+    line-height: 24px; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight: 20; 
+}
+.img2 img{
+    width: 88%;
+    height: 540px;
+    margin-left: 70px;
+    background-color: antiquewhite;
+    margin-top: 140px;
+}
+.p2
+{
+    margin-top: 100px;
+    margin-left: 65px;
+    width:1100px;
+    letter-spacing: 1px;
+    line-height: 24px;    
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight: 20; 
+}
+.img3 img{
+    width: 88%;
+    height: 560px;
+    margin-left: 70px;
+    background-color: antiquewhite;
+    margin-top: 120px;
+}
+.img3 iframe{
+    width: 88%;
+    height: 560px;
+    margin-left: 70px;
+    background-color: antiquewhite;
+    margin-top: 120px;
+}
+
+.grey{
+    background-color: rgb(225, 213, 197);
+    width: 100%;
+    height: 200px;
+    margin-top: 90px;
+}
+.btn button{
+    background-color:  rgb(0,44,95);
+    color: white;
+width: 280px;
+margin-left: 480px;
+margin-top: 30px;
+height: 46px;
+    
+}
+.h22
+{
+    text-align: center;
+    padding-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.h33
+{
+    text-align: center;
+    padding-top: 45px;
+    background-color: white;
+    height: 50px;
+}
+.form{
+    width: 100%;
+    height: 1050px;
+    background-color:white;
+    margin-top: 0px;
+    
+}
+.form .inp1{
+    padding-left: 38px;
+    padding-top: 30px;
+    border-color: black,;
+}
+.form .inp1 input{
+width: 1150px;
+height: 34px;
+
+
+}
+.form .inp2{
+    padding-left: 38px;
+    padding-top: 20px;
+   
+}
+.form .inp2 input{
+width: 1150px;
+height: 34px;
+}
+.form .inp3{
+    padding-left: 38px;
+    padding-top: 20px;
+   
+}
+.form .inp3 input{
+width: 300px;
+height: 25px;
+padding-top: 20px;
+}
+.form .inp3 .btttn{
+    width: 100px;
+    margin-left: 23px;
+    color: white;
+    background-color: rgb(75, 106, 186);
+    height: 36px;
+}
+.form .inp4{
+    padding-left: 38px;
+    padding-top: 20px;
+}
+.form .inp4 input{
+    width: 300px;
+    height: 34px;
+    }
+    .form .inp5{
+        padding-left: 38px;
+        padding-top: 20px;
+    }
+    .form .inp5 input{
+    width: 1150px;
+    height: 34px;
+    }
+    .form .inp6{
+        padding-left: 38px;
+        padding-top: 20px;
+    }
+    .form .inp6 select{
+    width: 1150px;
+    height: 34px;
+    }
+    .form .inp7{
+        padding-left: 38px;
+        padding-top: 20px;
+    }
+    .form .inp7 select{
+    width: 1150px;
+    height: 34px;
+    }
+    .form .inp8{
+        padding-left: 38px;
+        padding-top: 20px;
+    }
+    .form .inp8 select{
+    width: 1150px;
+    height: 34px;
+    }
+    .form .inp9{
+        padding-left: 38px;
+        padding-top: 20px;
+    }
+    .form .inp9 textarea{
+    width: 1150px;
+    height: 170px;
+    }
+    .form .inp10{
+        padding-left: 520px;
+        margin-top: 100px;
+        padding-top: 20px;
+       
+    }
+    .form .inp10 button{
+        width: 130px;
+        height: 50px;
+        color: white;
+        background-color:#002c5f ;
+    }
+    .footer
+    {
+        width:100%;
+        background-color: rgb(25, 23, 23);
+        height:260px;
+    }
+    .footer .footerlogo img{
+        padding-left: 70px;
+        margin-top: 25px;
+    }
+  .fd{
+    color: rgb(153,152,148);
+    position: relative;
+    z-index: 4;
+    left: 90px;
+    bottom: 55px;
+    font-weight: 23px;
+  }
+  .ppp{
+    color:rgb(94,94,92);
+    
+    position: relative;
+    z-index: 6;
+    right: 600px;
+    font-size: small;
+  }
+
+  .topbtn img{
+    width: 60px;
+    height: 60px;
+    padding-left: 1203px;
+   
+    
+ 
+  }
+  .footer ul{
+    width: 700px;
+    
+  }
+  .insta{
+    position: relative;
+    left: 180px;
+    bottom: 50px;
+  }
